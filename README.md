@@ -1,23 +1,29 @@
-# VIRTUAL_FPGA_LAB_WORKSHOP
+# Getting Started with FPGAs
 
-## About the Workshop:
-__Course: “Getting Started with FPGAs”,__
-a one-hour primer to get you off the ground developing your first FPGA logic. Several low-cost FPGA boards are supported. This course uses a virtual FPGA lab within the Makerchip online IDE.
+**Brought to you by the [Open Source FPGA Foundation](https://osfpga.org).**
 
-Within Makerchip, you’ll use Verilog or the latest Transaction-Level Verilog to build and simulate a counter circuit and show the count on the virtual 7-segment display. Then, if you have a supported FPGA board, such as Basys 3 or iCEBreaker (+ 7-segment display), you’ll be able to run your design on your own FPGA. From there, the sky’s the limit.
+<a href="https://osfpga.org"><img src="https://user-images.githubusercontent.com/11302288/130822353-15fd731a-2621-4a65-b753-3fe7e7e303aa.png" alt="osfpga-logo" height="90"></a>
 
-## Makerchip and TL-Verilog:
-[Makerchip](https://www.makerchip.com/) is a free web-based IDE as well as available as [makerchip-app](https://gitlab.com/rweda/makerchip-app), a virtual desktop application for developing high-quality integrated circuits. You can code, compile, simulate, and debug Verilog designs, all from your browser. Your code, block diagrams, and waveforms are tightly integrated. [Makerchip](https://www.makerchip.com/) supports the emerging Transaction-Level Verilog standard. [Transaction-Level Verilog](http://tl-x.org/), or [TL-Verilog](http://tl-x.org/), represents a huge step forward, by eliminating the need for the legacy language features of Verilog and by introducing simpler syntax. At the same time, TL-Verilog adds powerful constructs for pipelines and transactions. More details about TL-Verilog: [https://www.redwoodeda.com/tl-verilog](https://www.redwoodeda.com/tl-verilog)
+<img src="https://user-images.githubusercontent.com/11302288/130853895-9c331820-1c9f-4fcd-bec9-7ab2afcc81cb.png" height="140">
 
-## Features of Virtual FPGA Lab:
-- Move back and forth between cycles so that we can visualize what's happening in each and every cycle.
-- Faster to see the output for simple designs. No need to wait for Synthesis, Implementation and Bitstream Generation.
-- Abstraction in writing the digital logic in TL-Verilog over standard HDL languages.
-- Compatible code structure (works inside and outside of Makerchip)
-### FPGA Boards demonstrated in Makerchip:
-1. Basys 3 Artix-7 FPGA Trainer Board ([Product Link](https://store.digilentinc.com/basys-3-artix-7-fpga-beginner-board-recommended-for-introductory-users/)) 
-3. EDGE Artix 7 FPGA Development Board ([Product Link](https://allaboutfpga.com/product/edge-artix-7-fpga-development-board/))
-4. Zedboard Zynq-7000 ARM/FPGA SoC Development Board ([Product Link](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/zedboard/))
+Led by [Steve Hoover](https://www.linkedin.com/in/steve-hoover-a44b607/), founder of [<a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="50"></a>](https://redwoodeda.com) and member of the [OSFPGA](https://osfpga.org) Education and Training Committee.
+
+This free short-course takes you from your browser... to your board.
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/64545984/130662812-ae1ea3b2-2ff2-40dd-bf99-9929980c9173.gif" alt="EDGE_Artix7_LED" width="600">
+  <img src="https://user-images.githubusercontent.com/64545984/130665845-18b89d49-a5dc-4308-bdf1-45119d93abef.gif" alt="led_artix" /> 
+</p>
+
+Using a vitual FPGA lab environment within the [Makerchip](https://makerchip.com) online IDE, you'll develop a simple counter circuit and 7-segment display controller in Verilog or Transaction-Level Verilog. Then, if you have any of several supported FPGA boards, you’ll be able to run your design on your own FPGA. From there, the sky’s the limit. Visit [OSFPGA.org](https://osfpga.org) for further learning opportunities.
+
+Supported Boards:
+
+  - [Basys 3 Artix-7 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-beginner-board-recommended-for-introductory-users/) 
+  - [EDGE Artix 7 FPGA Development Board](https://allaboutfpga.com/product/edge-artix-7-fpga-development-board/)
+  - [Zedboard Zynq-7000 ARM/FPGA SoC Development Board](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/zedboard/)
+
+[Start the course now!](./Course.md)
 
 ## Demos:
 ### 1. LED:
@@ -66,3 +72,18 @@ __Output on Edge Artix7 board:__
 <img src="https://user-images.githubusercontent.com/64545984/130660934-b51a670e-577e-4fc4-a0a6-a28db593af61.gif" alt="EDGE_Artix7_7seg" width="600">
 
 
+## Credits
+
+Course creators:
+  - Steve Hoover, founder Redwood EDA
+  - Mayank Kabra, student at the International Institute of Information Technology, Bangalore
+  - Shivani Shah, student at the International Institute of Information Technology, Bangalore
+
+Thanks also to [Bala Dinesh](https://www.linkedin.com/in/bala-dhinesh/) for providing the vitual lab environment, with support from:
+
+<p>
+    <a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="90"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://summerofcode.withgoogle.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/GSoC_logo.svg" alt="gsoc-logo" height="90"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://fossi-foundation.org"><img src="https://www.fossi-foundation.org/assets/fossi_logo_large.png" alt="fossi-logo" height="90"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.vlsisystemdesign.com/"><img src="https://user-images.githubusercontent.com/11302288/130832099-9648722e-d9f4-4dec-b8c9-69a558cbdc97.png" alt="vsd-logo" height="90"></a>
+</p>
