@@ -19,9 +19,11 @@ Using a vitual FPGA lab environment within the [Makerchip](https://makerchip.com
 
 Supported Boards:
 
-  - [Basys 3 Artix-7 FPGA Trainer Board](https://store.digilentinc.com/basys-3-artix-7-fpga-beginner-board-recommended-for-introductory-users/) 
-  - [EDGE Artix 7 FPGA Development Board](https://allaboutfpga.com/product/edge-artix-7-fpga-development-board/)
-  - [Zedboard Zynq-7000 ARM/FPGA SoC Development Board](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/zedboard/)
+1. Zedboard Zynq-7000 ARM/FPGA SoC Development Board ([Product Link](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/zedboard/))
+2. EDGE Artix 7 FPGA Development Board ([Product Link](https://allaboutfpga.com/product/edge-artix-7-fpga-development-board/))
+3. Basys 3 Artix-7 FPGA Trainer Board ([Product Link](https://store.digilentinc.com/basys-3-artix-7-fpga-beginner-board-recommended-for-introductory-users/)) 
+4. Icebreaker FPGA ([Product Link](https://1bitsquared.com/products/icebreaker))
+5. Nexys A7 ([Product Link](https://store.digilentinc.com/nexys-a7-fpga-trainer-board-recommended-for-ece-curriculum/))
 
 [Start the course now!](./Course.md)
 
@@ -79,7 +81,7 @@ Course creators:
   - Mayank Kabra, student at the International Institute of Information Technology, Bangalore
   - Shivani Shah, student at the International Institute of Information Technology, Bangalore
 
-Thanks also to [Bala Dinesh](https://www.linkedin.com/in/bala-dhinesh/) for providing the vitual lab environment, with support from:
+Thanks also to [Bala Dhinesh](https://www.linkedin.com/in/bala-dhinesh/) for providing the virtual lab environment, with support from:
 
 <p>
     <a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="90"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
