@@ -1,6 +1,6 @@
 # Getting Started with FPGAs
 
-**Brought to you by the [Open Source FPGA Foundation](https://osfpga.org).**
+**Brought to you by the [Open Source FPGA Foundation](https://osfpga.org)**
 
 <a href="https://osfpga.org"><img src="https://user-images.githubusercontent.com/11302288/130822353-15fd731a-2621-4a65-b753-3fe7e7e303aa.png" alt="osfpga-logo" height="90"></a>
 
@@ -8,14 +8,16 @@
 
 Led by [Steve Hoover](https://www.linkedin.com/in/steve-hoover-a44b607/), founder of [<a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="50"></a>](https://redwoodeda.com) and member of the [OSFPGA](https://osfpga.org) Education and Training Committee.
 
-This free short-course takes you from your browser... to your board.
+This free short-course takes you from your browser to your board in under an hour, using the [Makerchip](https://makerchip.com) IDE.
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/64545984/130662812-ae1ea3b2-2ff2-40dd-bf99-9929980c9173.gif" alt="EDGE_Artix7_LED" width="600">
+<p float="left" style="font-size: 40px; font-weight: 500; letter-spacing: -.4rem">
+  <img src="https://user-images.githubusercontent.com/64545984/130662812-ae1ea3b2-2ff2-40dd-bf99-9929980c9173.gif" alt="EDGE_Artix7_LED" width="600">&nbsp;&nbsp;=>&nbsp;&nbsp;
   <img src="https://user-images.githubusercontent.com/64545984/130665845-18b89d49-a5dc-4308-bdf1-45119d93abef.gif" alt="led_artix" /> 
 </p>
 
-Using a vitual FPGA lab environment within the [Makerchip](https://makerchip.com) online IDE, you'll develop a simple counter circuit and 7-segment display controller in Verilog or Transaction-Level Verilog. Then, if you have any of several supported FPGA boards, you’ll be able to run your design on your own FPGA. From there, the sky’s the limit. Visit [OSFPGA.org](https://osfpga.org) for further learning opportunities.
+You'll develop a simple counter circuit and a 7-segment display controller in Verilog or Transaction-Level Verilog. Then, if you have any of several supported FPGA boards, you’ll be able to run your design on your own FPGA. From there, the sky’s the limit.
+
+Visit [OSFPGA.org](https://osfpga.org) for further learning opportunities.
 
 Supported Boards:
 
@@ -75,11 +77,11 @@ __Output on Edge Artix7 board:__
 ## Credits
 
 Course creators:
-  - Steve Hoover, founder Redwood EDA
+  - Steve Hoover, founder Redwood EDA, LLC
   - Mayank Kabra, student at the International Institute of Information Technology, Bangalore
   - Shivani Shah, student at the International Institute of Information Technology, Bangalore
 
-Thanks also to [Bala Dinesh](https://www.linkedin.com/in/bala-dhinesh/) for providing the vitual lab environment, with support from:
+Thanks also to [Bala Dinesh](https://www.linkedin.com/in/bala-dhinesh/) for providing the [vitual lab environment](https://github.com/BalaDhinesh/Virtual-FPGA-Lab), with support from:
 
 <p>
     <a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="90"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>

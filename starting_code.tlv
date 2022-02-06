@@ -26,20 +26,20 @@
    end
 */
 \TLV
-   |fpga   // (not to be confused with "lead pipe")
+   |fpga
       @0
-         m4+fpga_refresh($refresh, m4_ifelse(M4_MAKERCHIP, 1, 1, 50000000)) 
+         m4+fpga_heartbeat($refresh, 1, 50000000) 
          $reset = *reset;
          ?$refresh
             
             // ----------------------------
             // Drive $Leds[15:0] here.
-            //$Leds[15:0] <= $reset ? 16'b0 : $Leds + 1;
+            $Leds[15:0] <= $reset ? 16'b0 : $Leds + 1;
             
-            $Leds[15:0] <=
-               $reset                  ? 16'b1 :
-               ($Leds == 16'b10000000) ? 16'b1 :
-                                         ($Leds << 1);
+            //$Leds[15:0] <=
+            //   $reset                  ? 16'b1 :
+            //   ($Leds == 16'b10000000) ? 16'b1 :
+            //                             ($Leds << 1);
             // ----------------------------
          
          *led = $Leds;
