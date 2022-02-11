@@ -1,5 +1,7 @@
 # Getting Started with FPGAs Course
 
+# _This course is work-in-progress. (Sorry for the premature Linkedin post.) Come back soon!_
+
 ## Virtual Lab Setup
 
 ### System requirements
@@ -23,7 +25,7 @@ The physical FPGA flow requires:
 
 ### Makerchip Starting Code Template
 
-  - Open this [starting code template](http://www.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fstevehoover%2FGettingStartedWithFPGAs%2Fmain%2Fstarting_code.tlv) in Makerchip.
+  - Open this [starting code template](http://www.makerchip.com/sandbox?code_url=https:%2F%2Fraw.githubusercontent.com%2Fos-fpga%2FGettingStartedWithFPGAs%2Fmain%2Fstarting_code.tlv) in Makerchip.
   - Watch this short introduction to Makerchip. TODO: Video.
 The template contains a list of supported boards.
   - If you have one of these boards, you may choose it, or choose any board you like for the virtual lab.
