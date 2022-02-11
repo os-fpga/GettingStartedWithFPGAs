@@ -27,7 +27,7 @@ Supported Boards:
 4. Icebreaker FPGA ([Product Link](https://1bitsquared.com/products/icebreaker))
 5. Nexys A7 ([Product Link](https://store.digilentinc.com/nexys-a7-fpga-trainer-board-recommended-for-ece-curriculum/))
 
-[Start the course now!](./Course.md)
+[Start the course now!](./Course.md) ...well, not quite now... still a work-in-progress.
 
 ## Demos:
 ### 1. LED:
