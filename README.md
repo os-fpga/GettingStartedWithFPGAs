@@ -1,12 +1,12 @@
 # Getting Started with FPGAs
 
-**Brought to you by the [Open Source FPGA Foundation](https://osfpga.org)**
+**Brought to you by the [Open Source FPGA Foundation](https://www.chipsalliance.org/)**
 
-<a href="https://osfpga.org"><img src="https://user-images.githubusercontent.com/11302288/130822353-15fd731a-2621-4a65-b753-3fe7e7e303aa.png" alt="osfpga-logo" height="90"></a>
+<a href="https://www.chipsalliance.org/"><img src="https://user-images.githubusercontent.com/11302288/130822353-15fd731a-2621-4a65-b753-3fe7e7e303aa.png" alt="osfpga-logo" height="90"></a>
 
 <img src="https://user-images.githubusercontent.com/11302288/130853895-9c331820-1c9f-4fcd-bec9-7ab2afcc81cb.png" height="140">
 
-Led by [Steve Hoover](https://www.linkedin.com/in/steve-hoover-a44b607/), founder of [<a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="50"></a>](https://redwoodeda.com) and member of the [OSFPGA](https://osfpga.org) Education and Training Committee.
+Led by [Steve Hoover](https://www.linkedin.com/in/steve-hoover-a44b607/), founder of [<a href="https://redwoodeda.com"><img src="https://user-images.githubusercontent.com/11302288/130831451-1c3b1541-06f2-4c0e-bbaf-8e0026db00c1.png" alt="redwoodeda-logo" height="50"></a>](https://redwoodeda.com) and member of the [OSFPGA](https://www.chipsalliance.org/) Education and Training Committee.
 
 This free short-course takes you from your browser to your board in under an hour, using the [Makerchip](https://makerchip.com) IDE.
 
@@ -17,7 +17,7 @@ This free short-course takes you from your browser to your board in under an hou
 
 You'll develop a simple counter circuit and a 7-segment display controller in Verilog or Transaction-Level Verilog. Then, if you have any of several supported FPGA boards, you’ll be able to run your design on your own FPGA. From there, the sky’s the limit.
 
-Visit [OSFPGA.org](https://osfpga.org) for further learning opportunities.
+Visit [OSFPGA.org](https://www.chipsalliance.org/) for further learning opportunities.
 
 Supported Boards:
 
